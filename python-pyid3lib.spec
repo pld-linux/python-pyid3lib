@@ -7,7 +7,7 @@ License:	LGPL
 Group:		Libraries/Python
 #Source0Download: http://www.andrewchatham.com/pyogg/
 Source0:	http://dl.sourceforge.net/pyid3lib/pyid3lib-%{version}.tar.gz
-# Source0-md5:	45a4ecc4d0600661199e4040a81ea3fe
+# Source0-md5:	5fd37a7dda7c540f665ca5d428a28f5e
 URL:		http://pyid3lib.sourceforge.net/
 BuildRequires:	id3lib-devel
 BuildRequires:	rpmbuild(macros) >= 1.174
