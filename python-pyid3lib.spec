@@ -1,6 +1,6 @@
 %define		module	pyid3lib
 Summary:	A Python module for editing ID3v2 tags of MP3 audio files
-Summary(pl):	Modu³ Pythona do modyfikowania znaczników ID3v2 plików d¼wiêkowych MP3
+Summary(pl.UTF-8):   ModuÅ‚ Pythona do modyfikowania znacznikÃ³w ID3v2 plikÃ³w dÅºwiÄ™kowych MP3
 Name:		python-%{module}
 Version:	0.5.1
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 pyid3lib is a Python module for editing ID3v2 tags of MP3 audio files.
 
-%description -l pl
-pyid3lib to modu³ Pythona do modyfikowania znaczników ID3v2 plików
-d¼wiêkowych MP3.
+%description -l pl.UTF-8
+pyid3lib to moduÅ‚ Pythona do modyfikowania znacznikÃ³w ID3v2 plikÃ³w
+dÅºwiÄ™kowych MP3.
 
 %prep
 %setup -q -n %{module}-%{version}
