@@ -3,7 +3,7 @@ Summary:	A Python module for editing ID3v2 tags of MP3 audio files
 Summary(pl.UTF-8):	Moduł Pythona do modyfikowania znaczników ID3v2 plików dźwiękowych MP3
 Name:		python-%{module}
 Version:	0.5.1
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/pyid3lib/pyid3lib-%{version}.tar.gz
