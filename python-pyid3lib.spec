@@ -25,13 +25,12 @@ dźwiękowych MP3.
 %setup -q -n %{module}-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install \
-	--optimize=2 \
+%py_install \
 	--root $RPM_BUILD_ROOT
 
 %clean
