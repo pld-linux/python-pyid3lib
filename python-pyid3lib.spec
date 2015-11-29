@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/pyid3lib/pyid3lib-%{version}.tar.gz
 # Source0-md5:	5fd37a7dda7c540f665ca5d428a28f5e
 URL:		http://pyid3lib.sourceforge.net/
 BuildRequires:	id3lib-devel
-BuildRequires:	rpmbuild(macros) >= 1.174
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
